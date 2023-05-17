@@ -8,6 +8,7 @@ using namespace std;
 
 int main()
 {
-    Database db();
+    Database db;
+    db.json_query("SELECT * FROM Users");
     return 0;
 }

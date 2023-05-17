@@ -9,9 +9,9 @@
 class Database
 {
     QSqlDatabase DB;
-    QByteArray json_query(QString query);
 
 public:
+    QByteArray json_query(QString query);
     Database();
     QByteArray search_by_student_num(QString stud_number);
     QByteArray search_by_last_name(QString last_name);
